@@ -1,0 +1,27 @@
+FIRST-10 RAW-COEFFICIENT PCA OF RANDOM-G0 INPUTS AND NN-DMFT TRAJECTORIES
+============================================================================
+
+training file           = Features_0500.csv
+training array/key      = <text-table>
+training matrix shape   = (500, 32)
+G0 coefficient shape    = (500, 30)
+
+PCA:
+  fitted to the first 10 raw G0 Legendre coefficients
+  coefficients are mean-centered but not variance-scaled
+  PC1 explained variance = 93.48348024%
+  PC2 explained variance = 6.25013962%
+
+Selected NN-DMFT trajectories:
+  U/t                    = 4
+  beta t                 = 8, 15, 25, 50
+  updates per run        = 10
+  points per trajectory  = 11 (initial plus updates)
+  initialization         = fresh semicircular G0 for every beta
+  cross-beta continuation = disabled
+
+training U range        = [2, 8]
+training beta values    = 5, 8, 10, 15, 20, 25
+
+Every trajectory point is one complete first-10-coefficient G0 vector.
+Iteration 0 is recorded before the first NN prediction.
