@@ -2,6 +2,11 @@
 
 This repository contains plotting scripts, figure data, and final figure outputs for the paper.
 
+## Paper
+
+- arXiv: [2603.25557](https://arxiv.org/abs/2603.25557)
+- DOI: [10.1103/9ndg-shty](https://doi.org/10.1103/9ndg-shty)
+
 ## Setup
 
 Create the conda environment:
